@@ -162,7 +162,7 @@ a
     display: block;
     position: absolute;
     width: 180px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.215);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.327);
     /* top: 100px ; */
     margin-top: 20px;
     line-height: 34px;
@@ -229,6 +229,7 @@ a
 .first_section
 {
     background-color: var(--neutral-silver);
+    
 }
 
 .text_part
@@ -286,4 +287,46 @@ a
     color: var(--brand-primary);
     outline: 1px solid var(--brand-primary);
     background: var(--neutral-silver);
+}
+
+.dots
+{
+    margin-left: 50%;
+    margin-bottom: 16px;
+}
+
+.second_section
+{
+    margin: 40px 0;
+}
+
+.second_section h2
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    
+    margin-bottom: 8px;
+}
+
+.second_section p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-grey);
+    margin-bottom: 8px;
+}
+
+.logos
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 25px 0;
 }
