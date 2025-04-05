@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background: var(--neutral-silver); */
 }
 
 :root {
@@ -37,6 +38,7 @@
 body
 {
     font-family: var(--font-family);
+    
 }
 
 #nav
@@ -291,13 +293,22 @@ a
 
 .dots
 {
-    margin-left: 50%;
+    text-align: center;
+    
+    /* display: inline-block; */
+}
+
+.dots img
+{
+    
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .second_section
 {
     margin: 40px 0;
+    background: var(--neutral-white);
 }
 
 .second_section h2
@@ -330,3 +341,78 @@ a
     margin-top: 8px;
     padding: 25px 0;
 }
+
+.community
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    width: 542px;
+    margin: auto;
+    
+}
+
+.suitable
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-grey);
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.box-part
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.box-part img 
+{
+    width: 65px;
+    height: 56px;
+    margin-bottom: 8px;
+}
+
+.box-part h3
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    margin: 8px 16px ;
+    width: 267px;
+}
+
+.box-part p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: var(--neutral-grey);
+}
+
+.three-box
+{
+    width: 299px;
+    text-align: center;
+    
+    border-radius: 8px;
+    padding: 24px 0px;
+    width: 299px;
+    height: 260px;
+    box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
+    background: var(--neutral-white);
+}
+
