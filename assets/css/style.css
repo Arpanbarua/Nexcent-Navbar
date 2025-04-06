@@ -453,6 +453,7 @@ a
     line-height: 143%;
     color: var(--neutral-grey);
     position: relative;
+    width: 601px;
     /* margin-bottom: 32px; */
 }
 
